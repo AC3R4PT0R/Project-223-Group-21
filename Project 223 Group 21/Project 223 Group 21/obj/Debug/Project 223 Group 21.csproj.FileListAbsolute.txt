@@ -1,0 +1,21 @@
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project 223 Group 21.csproj.AssemblyReference.cache
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.Properties.Resources.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project 223 Group 21.csproj.GenerateResource.cache
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project 223 Group 21.csproj.CoreCompileInputs.cache
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\bin\Debug\Project 223 Group 21.exe.config
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\bin\Debug\Project 223 Group 21.exe
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\bin\Debug\Project 223 Group 21.pdb
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project 223 Group 21.exe
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project 223 Group 21.pdb
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.frm_login.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.Selection_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.addUser_form.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.deleteUser_form.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.editUser_form.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.stock_add_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.stock_delete_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.stock_edit_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.stock_viewall_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.orders_check_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.orders_update_frm.resources
+C:\Users\aceni\Desktop\NWU\CMPG223\Project 223 Group 21\Project 223 Group 21\obj\Debug\Project_223_Group_21.report_month_frm.resources

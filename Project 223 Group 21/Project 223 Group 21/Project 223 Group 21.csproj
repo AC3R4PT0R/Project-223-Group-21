@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B239751-17F8-438A-9797-C389B1E7098B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_223_Group_21</RootNamespace>
+    <AssemblyName>Project 223 Group 21</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="deleteUser_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteUser_form.Designer.cs">
+      <DependentUpon>deleteUser_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editUser_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editUser_form.Designer.cs">
+      <DependentUpon>editUser_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_frm.Designer.cs">
+      <DependentUpon>Login_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitted_Galore_StaffDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kitted_Galore_StaffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="orders_check_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orders_check_frm.Designer.cs">
+      <DependentUpon>orders_check_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orders_update_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orders_update_frm.Designer.cs">
+      <DependentUpon>orders_update_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report_month_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_month_frm.Designer.cs">
+      <DependentUpon>report_month_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Selection_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selection_frm.Designer.cs">
+      <DependentUpon>Selection_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addUser_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addUser_form.Designer.cs">
+      <DependentUpon>addUser_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock_add_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_add_frm.Designer.cs">
+      <DependentUpon>stock_add_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock_delete_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_delete_frm.Designer.cs">
+      <DependentUpon>stock_delete_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock_edit_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_edit_frm.Designer.cs">
+      <DependentUpon>stock_edit_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stock_viewall_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stock_viewall_frm.Designer.cs">
+      <DependentUpon>stock_viewall_frm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="deleteUser_form.resx">
+      <DependentUpon>deleteUser_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editUser_form.resx">
+      <DependentUpon>editUser_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_frm.resx">
+      <DependentUpon>Login_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders_check_frm.resx">
+      <DependentUpon>orders_check_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orders_update_frm.resx">
+      <DependentUpon>orders_update_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="report_month_frm.resx">
+      <DependentUpon>report_month_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selection_frm.resx">
+      <DependentUpon>Selection_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addUser_form.resx">
+      <DependentUpon>addUser_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_add_frm.resx">
+      <DependentUpon>stock_add_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_delete_frm.resx">
+      <DependentUpon>stock_delete_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_edit_frm.resx">
+      <DependentUpon>stock_edit_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stock_viewall_frm.resx">
+      <DependentUpon>stock_viewall_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Kitted_Galore_StaffDataSet.xsc">
+      <DependentUpon>Kitted_Galore_StaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Kitted_Galore_StaffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kitted_Galore_StaffDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Kitted_Galore_StaffDataSet.xss">
+      <DependentUpon>Kitted_Galore_StaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_468547868-stock-photo-help-button-red-help-button.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
